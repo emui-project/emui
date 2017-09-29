@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/Slide.js"></script>
+    <link rel="stylesheet" href="../css/Slide_modular.css">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+</style>
+<link rel="stylesheet" href="../css/Slide_modular.css">
+<body>
+<div id="dynamic-slide"></div>
+</body>
+<script>
+    var config = {
+        dom:"dynamic-slide",
+        width:"580px",
+        height:"450px",
+        img_num: 2,
+        img_src:[
+            "../img/dynamic/slide-left3.png",
+            "../img/dynamic/slide-left1.png"
+        ],
+        info:[
+            "华为P10携EMUI5.1 亮相MWC2017",
+            "华为P10国行版搭载 全新EMUI5.1正式发布"
+        ]
+    };
+    new Slide(config);
+</script>
+</html>
